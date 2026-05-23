@@ -1,0 +1,92 @@
+specification: FinOps Framework
+specificationVersion: '1.0'
+schema: https://www.finops.org/framework/
+provider: McKinsey & Company
+providerId: mckinsey-and-company
+created: '2026-05-23'
+modified: '2026-05-23'
+reconciled: false
+tags:
+  - Consulting
+  - Management Consulting
+  - Professional Services
+  - MBB
+  - FinOps
+  - FOCUS
+description: >-
+  McKinsey & Company has no public developer API and no metered billing
+  surface. Costs flow through bilateral consulting engagement contracts
+  and appear on client books as professional-services spend, not as
+  metered API invoices. McKinsey itself advises clients on FinOps and
+  cloud financial-management programs (often delivered through McKinsey
+  Digital and QuantumBlack), but does not consume FinOps for its own
+  corporate offerings. McKinsey-published open-source software is
+  released free of charge under permissive licenses and does not enter
+  the FinOps billing surface.
+notes: >-
+  No public developer API — placeholder only. McKinsey's FinOps practice
+  is an advisory offering, not a billed McKinsey API product.
+sources:
+  - https://www.mckinsey.com/
+  - https://www.mckinsey.com/capabilities/mckinsey-digital/how-we-help-clients
+  - https://github.com/mckinsey
+alignedWith:
+  framework: FinOps Foundation Framework
+  frameworkUrl: https://www.finops.org/framework/
+  dataSpec: FOCUS
+  dataSpecVersion: '1.3'
+  dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
+publisherName: McKinsey & Company
+serviceCategory: Professional Services
+billingModel:
+  pricingCategory: Contract
+  billingFrequency: Per-Invoice
+  billingCurrency: USD
+  chargeCategories:
+    - Purchase
+focusColumns:
+  ServiceName: McKinsey Engagement
+  ServiceCategory: Professional Services
+  ProviderName: McKinsey & Company
+  PublisherName: McKinsey & Company
+  InvoiceIssuerName: McKinsey & Company
+  BillingCurrency: USD
+meters:
+  - name: engagement_contract
+    description: >-
+      Master engagement contract — not a metered unit; costs flow
+      through time-and-materials, fixed-fee, or
+      managed-services-subscription invoicing from the McKinsey
+      engagement team.
+    unit: contract
+    aggregation: count
+    dimensions:
+      - client
+      - practice
+      - engagement_partner
+principles:
+  - name: Visibility
+    description: >-
+      Track McKinsey cost as professional-services spend on the client
+      GL, not as a metered API line.
+  - name: Allocation
+    description: >-
+      Allocate engagement cost to the sponsoring business unit;
+      pass-through hyperscaler costs incurred during a McKinsey-led
+      build or managed-services arrangement should be allocated
+      through the underlying cloud bill rather than the McKinsey
+      invoice.
+  - name: Optimization
+    description: >-
+      Optimize by applying the same FinOps practices McKinsey advises
+      clients to use on hyperscaler workloads, ensuring engagement
+      scope and run-rate are consistent with the value being
+      delivered.
+  - name: Accountability
+    description: >-
+      Engagement sponsor on the client side and the McKinsey
+      engagement partner share accountability for cost and value
+      delivered.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

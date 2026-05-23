@@ -1,0 +1,322 @@
+vocabulary:
+  name: McKinsey & Company Vocabulary
+  description: >-
+    Domain vocabulary for McKinsey & Company, the senior MBB strategy and
+    management consulting firm. Covers the firm's organizational structure
+    (industry and capability practices), subsidiary brands (QuantumBlack,
+    McKinsey Digital, Leap, McKinsey Technology), research and
+    thought-leadership surfaces (McKinsey Insights, McKinsey Quarterly,
+    McKinsey Global Institute), internal generative-AI tooling (Lilli),
+    and the firm's public open-source portfolio (Vizro, Agents-at-Scale
+    ARK, CausalNex, Kedro). McKinsey publishes no commercial public
+    developer API; this vocabulary models the institutional, research, and
+    open-source surfaces.
+  version: '1.0'
+  created: '2026-05-23'
+  modified: '2026-05-23'
+
+organizational-concepts:
+  - term: Firm
+    definition: >-
+      McKinsey's preferred self-reference. McKinsey is structured as a
+      single global partnership rather than a network of independent
+      member firms.
+    aliases:
+      - The Firm
+    related:
+      - Partner
+      - Office
+
+  - term: Partner
+    definition: >-
+      A senior consultant elected to the partnership. The partnership
+      collectively owns the firm and elects the Global Managing Partner.
+    related:
+      - Firm
+      - Managing Partner
+
+  - term: Global Managing Partner
+    definition: >-
+      The firm's elected chief executive, serving a renewable term.
+      Bob Sternfels has held the position since 2021.
+    aliases:
+      - Managing Partner
+    related:
+      - Partner
+
+  - term: Office
+    definition: >-
+      A geographic delivery location. McKinsey operates from 130-plus
+      cities in more than 65 countries.
+    related:
+      - Firm
+
+  - term: Engagement
+    definition: >-
+      A scoped client project, typically delivered by a small dedicated
+      team of consultants supported by partners, expert practitioners,
+      and analytics or implementation specialists.
+    related:
+      - Practice
+      - Client
+
+  - term: Industry Practice
+    definition: >-
+      A vertical client-facing practice (for example Banking, Healthcare,
+      Public Sector). Industry practices own client relationships and
+      sector-specific points of view.
+    related:
+      - Capability Practice
+
+  - term: Capability Practice
+    definition: >-
+      A cross-cutting service practice spanning industries. Capability
+      practices include Strategy & Corporate Finance; Operations;
+      Marketing & Sales; Risk & Resilience; Sustainability;
+      Transformation; Implementation; Organization; Growth, Marketing &
+      Sales; McKinsey Digital; and McKinsey Technology.
+    related:
+      - Industry Practice
+
+  - term: Practice
+    definition: >-
+      Either an industry practice or a capability practice. The unit of
+      organization through which expertise is developed, content is
+      authored, and client work is staffed.
+    related:
+      - Industry Practice
+      - Capability Practice
+
+subsidiary-brands:
+  - term: McKinsey Digital
+    definition: >-
+      The capability practice encompassing strategy, design, technology,
+      cloud, data, cyber, and product engineering. Houses QuantumBlack,
+      Leap, and the Technology practice.
+    related:
+      - QuantumBlack
+      - Leap
+      - McKinsey Technology
+
+  - term: QuantumBlack
+    definition: >-
+      McKinsey's advanced analytics and AI division, branded
+      "QuantumBlack, AI by McKinsey." Founded as an independent firm in
+      2009 in London and acquired by McKinsey in 2015. Delivers machine
+      learning, generative AI, agentic systems, and analytics
+      engagements, and is the originating organization for Kedro,
+      CausalNex, qbstyles, and the QuantumBlack Design System.
+    aliases:
+      - QuantumBlack, AI by McKinsey
+    related:
+      - McKinsey Digital
+      - Kedro
+      - State of AI
+
+  - term: Leap by McKinsey
+    definition: >-
+      The venture-building practice that co-creates and incubates new
+      digital businesses with clients, often spinning them out as
+      separate operating entities.
+    related:
+      - McKinsey Digital
+
+  - term: McKinsey Technology
+    definition: >-
+      The technology-focused capability practice inside McKinsey Digital,
+      covering cloud, architecture, platform engineering, cyber, and
+      enterprise technology transformation.
+    related:
+      - McKinsey Digital
+
+  - term: McKinsey Sustainability
+    definition: >-
+      The cross-cutting practice serving clients on net-zero strategy,
+      decarbonization, energy transition, climate risk, and
+      sustainability operating-model design.
+    related:
+      - Capability Practice
+
+research-surface:
+  - term: McKinsey Insights
+    definition: >-
+      The firm's umbrella research and thought-leadership publishing
+      surface, aggregating articles, reports, podcasts, and videos from
+      across the practices.
+    related:
+      - McKinsey Quarterly
+      - McKinsey Global Institute
+
+  - term: McKinsey Quarterly
+    definition: >-
+      McKinsey's flagship business journal, continuously published since
+      1964, offering long-form articles aimed at senior executives.
+    related:
+      - McKinsey Insights
+
+  - term: McKinsey Global Institute
+    definition: >-
+      MGI, the firm's business and economics research arm, producing
+      long-horizon research on the global economy, productivity,
+      technology, labor markets, and capital flows.
+    aliases:
+      - MGI
+    related:
+      - McKinsey Insights
+
+  - term: State of AI
+    definition: >-
+      QuantumBlack's recurring global survey on enterprise adoption of
+      AI and generative AI, used as a benchmark across the industry.
+    related:
+      - QuantumBlack
+      - QuantumBlack AI Report
+
+  - term: QuantumBlack AI Report
+    definition: >-
+      QuantumBlack's annual flagship report on the state of applied AI
+      inside enterprises.
+    related:
+      - QuantumBlack
+      - State of AI
+
+  - term: The McKinsey Podcast
+    definition: >-
+      The firm's flagship audio program distributing executive-focused
+      conversations on strategy, leadership, technology, and the
+      economy. Sits alongside specialty shows (McKinsey Talks
+      Operations, McKinsey on AI, others).
+    related:
+      - McKinsey Insights
+
+  - term: McKinsey on Books
+    definition: >-
+      The firm's books program, including titles authored by McKinsey
+      partners and consultants. Recent examples include works on
+      generative AI, leadership, and the workplace of the future.
+    related:
+      - McKinsey Insights
+
+internal-tooling:
+  - term: Lilli
+    definition: >-
+      McKinsey's internal generative-AI consultant assistant launched
+      in August 2023. Indexes more than 100,000 of the firm's internal
+      documents — frameworks, case studies, methodologies — and is used
+      by tens of thousands of firm employees to draft outputs, summarize
+      research, and find expertise inside the firm. Built on top of
+      large language models with retrieval-augmented generation against
+      McKinsey's proprietary knowledge base.
+    related:
+      - QuantumBlack
+      - Generative AI
+
+open-source-portfolio:
+  - term: Vizro
+    definition: >-
+      The McKinsey-published, open-source, low-code Python toolkit for
+      building "beautiful and powerful data visualization apps" without
+      requiring advanced engineering or design expertise. Built on
+      Plotly Dash. Apache 2.0. Maintained at github.com/mckinsey/vizro.
+    related:
+      - Open Source Project
+      - McKinsey Digital
+
+  - term: Agents-at-Scale ARK
+    definition: >-
+      A "declarative, Kubernetes-native framework for building portable,
+      scalable, and provider-agnostic agentic applications" published by
+      McKinsey. Lets developers define agents as Kubernetes custom
+      resources, swap between OpenAI, Anthropic, Google, Azure, and
+      Ollama backends, and compose multi-agent teams with tools and
+      persistent memory. Maintained at
+      github.com/mckinsey/agents-at-scale-ark.
+    aliases:
+      - ARK
+    related:
+      - Agents-at-Scale Marketplace
+      - Agentic AI
+      - Kubernetes
+
+  - term: Agents-at-Scale Marketplace
+    definition: >-
+      A curated catalog of Helm charts and DevSpace configurations for
+      the ARK platform, packaging executors (Claude SDK, LangChain),
+      infrastructure services (observability, sandbox environments,
+      file storage), pre-built agents, and MCP servers for filesystem,
+      PDF, and web-research capabilities. Maintained at
+      github.com/mckinsey/agents-at-scale-marketplace.
+    related:
+      - Agents-at-Scale ARK
+      - MCP
+
+  - term: CausalNex
+    definition: >-
+      A QuantumBlack-originated Python toolkit for causal reasoning and
+      "what-if" analysis using Bayesian Networks. Apache 2.0.
+      Maintained at github.com/mckinsey/causalnex.
+    related:
+      - QuantumBlack
+      - Open Source Project
+
+  - term: QuantumBlack Design System
+    definition: >-
+      A React component library built on shadcn/ui and Radix UI
+      primitives, styled to the QuantumBlack Design System
+      specification. Provides 30+ components consumable through
+      shadcn's CLI tooling. Maintained at
+      github.com/mckinsey/quantumblack-design-system.
+    related:
+      - QuantumBlack
+      - Open Source Project
+
+  - term: qbstyles
+    definition: >-
+      A QuantumBlack-published Python package providing light and dark
+      Matplotlib style themes. Apache 2.0. Maintained at
+      github.com/mckinsey/qbstyles.
+    related:
+      - QuantumBlack
+      - Open Source Project
+
+  - term: Kedro
+    definition: >-
+      "A toolbox for production-ready data engineering and data science
+      pipelines." Originated inside QuantumBlack and donated to the
+      Linux Foundation; now hosted by LF AI & Data and governed at
+      github.com/kedro-org. Apache 2.0. Notable adopters include NASA,
+      Telkomsel, Beamery, Jungle Scout, NHS AI Lab, Sber, and
+      QuantumBlack itself.
+    related:
+      - QuantumBlack
+      - LF AI & Data
+
+distribution-and-engagement:
+  - term: Alumni Network
+    definition: >-
+      The McKinsey alumni community of former consultants worldwide,
+      many of whom move into executive roles at clients and beyond.
+      The firm maintains a dedicated alumni surface and ongoing
+      programming.
+    related:
+      - Firm
+      - Partner
+
+  - term: Open Source Project
+    definition: >-
+      A McKinsey-published or QuantumBlack-originated public software
+      project. The firm's open-source presence is concentrated in
+      data, AI, and agentic systems on github.com/mckinsey and
+      github.com/kedro-org.
+    related:
+      - QuantumBlack
+      - McKinsey Digital
+
+  - term: No Public Developer API
+    definition: >-
+      McKinsey publishes no commercial public developer API or
+      developer portal at the corporate level. Software the firm
+      releases to the public flows through its GitHub open-source
+      projects rather than a hosted API surface.
+    related:
+      - Open Source Project

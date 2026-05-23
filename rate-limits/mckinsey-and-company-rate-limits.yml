@@ -1,0 +1,49 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: McKinsey & Company
+providerId: mckinsey-and-company
+created: '2026-05-23'
+modified: '2026-05-23'
+reconciled: false
+tags:
+  - Consulting
+  - Management Consulting
+  - Professional Services
+  - MBB
+  - Rate Limiting
+description: >-
+  McKinsey & Company does not publish a public developer API, so no
+  public rate limits exist. Throughput, concurrency, and SLAs on any
+  McKinsey-built API (within a client engagement, a McKinsey Digital
+  accelerator deployment, a QuantumBlack analytics product, or a
+  managed-services arrangement) are negotiated bilaterally and owned by
+  the engagement contract.
+notes: No public developer API — placeholder only.
+sources:
+  - https://www.mckinsey.com/
+  - https://github.com/mckinsey
+responseCodes:
+  throttled: 429
+limits:
+  - name: No public rate limits
+    scope: account
+    metric: not_applicable
+    limit: not applicable
+policies:
+  - name: Engagement-defined
+    description: >-
+      Throughput, concurrency, and SLAs on any McKinsey-built API are
+      defined inside the client engagement contract or the relevant
+      managed-services agreement, not by a public developer-portal
+      policy.
+  - name: Open-source self-hosted
+    description: >-
+      Rate limits on McKinsey's open-source projects (Vizro,
+      Agents-at-Scale ARK, ARK Marketplace, CausalNex, QuantumBlack
+      Design System, qbstyles, Kedro) are determined entirely by the
+      adopter's own infrastructure — there is no hosted McKinsey
+      offering.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

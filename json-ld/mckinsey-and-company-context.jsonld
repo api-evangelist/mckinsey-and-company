@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "mckinsey": "https://api-evangelist.com/vocab/mckinsey-and-company#",
+    "schema": "https://schema.org/",
+    "org": "http://www.w3.org/ns/org#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Organization": "schema:Organization",
+    "ConsultingFirm": "mckinsey:ConsultingFirm",
+    "CapabilityPractice": "mckinsey:CapabilityPractice",
+    "IndustryPractice": "mckinsey:IndustryPractice",
+    "Practice": "mckinsey:Practice",
+    "Engagement": "mckinsey:Engagement",
+    "Office": "schema:Place",
+    "Subsidiary": "mckinsey:Subsidiary",
+    "Tool": "schema:SoftwareApplication",
+    "AIAssistant": "mckinsey:AIAssistant",
+    "OpenSourceProject": "schema:SoftwareSourceCode",
+    "ResearchProgram": "mckinsey:ResearchProgram",
+    "ResearchReport": "schema:Report",
+    "ReportSeries": "mckinsey:ReportSeries",
+    "Podcast": "schema:PodcastSeries",
+    "Book": "schema:Book",
+    "Person": "schema:Person",
+    "ManagingPartner": "mckinsey:ManagingPartner",
+    "Alumni": "mckinsey:Alumni",
+
+    "id": "@id",
+    "type": "@type",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "logo": "schema:logo",
+    "founded": {
+      "@id": "schema:foundingDate",
+      "@type": "xsd:date"
+    },
+    "acquired": {
+      "@id": "mckinsey:acquisitionDate",
+      "@type": "xsd:date"
+    },
+    "launched": {
+      "@id": "mckinsey:launchDate",
+      "@type": "xsd:date"
+    },
+    "headquarters": "schema:address",
+    "country": "schema:addressCountry",
+    "city": "schema:addressLocality",
+    "region": "mckinsey:region",
+
+    "parentOrganization": "schema:parentOrganization",
+    "subOrganization": "schema:subOrganization",
+    "hasUnit": "org:hasUnit",
+    "capabilityPractice": "mckinsey:capabilityPractice",
+    "industryPractice": "mckinsey:industryPractice",
+    "practice": "mckinsey:practice",
+    "subsidiary": "mckinsey:subsidiary",
+
+    "published": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:date"
+    },
+    "author": "schema:author",
+    "publisher": "schema:publisher",
+    "topic": "schema:about",
+    "series": "mckinsey:series",
+    "researchProgram": "mckinsey:researchProgram",
+    "reportType": "mckinsey:reportType",
+    "audience": "schema:audience",
+
+    "openSourceProject": "mckinsey:openSourceProject",
+    "license": "schema:license",
+    "programmingLanguage": "schema:programmingLanguage",
+    "governance": "mckinsey:governance",
+    "repository": "schema:codeRepository",
+
+    "managingPartner": "mckinsey:managingPartner",
+    "consultant": "mckinsey:consultant",
+    "alumnus": "mckinsey:alumnus",
+
+    "broader": "skos:broader",
+    "narrower": "skos:narrower",
+    "related": "skos:related",
+    "prefLabel": "skos:prefLabel",
+    "altLabel": "skos:altLabel"
+  }
+}

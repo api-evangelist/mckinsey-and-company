@@ -1,0 +1,134 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: McKinsey & Company
+providerId: mckinsey-and-company
+created: '2026-05-23'
+modified: '2026-05-23'
+reconciled: false
+tags:
+  - Consulting
+  - Management Consulting
+  - Strategy
+  - Professional Services
+  - MBB
+  - Open Source
+description: >-
+  McKinsey & Company does not publish a public commercial developer API
+  or developer portal. Commercial engagements are priced as bilateral
+  consulting contracts negotiated through the partnership on a
+  time-and-materials, fixed-fee, or managed-services-subscription basis.
+  Research outputs published through McKinsey Insights, McKinsey
+  Quarterly, McKinsey Global Institute, the QuantumBlack AI report,
+  podcasts, and books are made available free of charge through
+  mckinsey.com and partner distribution channels. The firm's open-source
+  software (Vizro, Agents-at-Scale ARK, ARK Marketplace, CausalNex,
+  QuantumBlack Design System, qbstyles, and the LF-governed Kedro
+  project) is released free of charge under permissive open-source
+  licenses (Apache 2.0 and similar).
+notes: >-
+  No public developer API — placeholder only. Pricing is engagement-based
+  and not consumable as an API plan. Free research and free open-source
+  software are documented as separate plan tiers purely for inventory.
+sources:
+  - https://www.mckinsey.com/
+  - https://www.mckinsey.com/about-us
+  - https://www.mckinsey.com/featured-insights
+  - https://github.com/mckinsey
+  - https://github.com/kedro-org
+plans:
+  - id: mckinsey-engagement
+    name: Partnership Consulting Engagement
+    type: enterprise
+    description: >-
+      McKinsey sells strategy, transformation, digital, AI, operations,
+      risk, sustainability, and implementation consulting work through
+      bilateral engagement contracts negotiated with the partnership.
+      There is no public API plan; pricing is set per engagement on a
+      time-and-materials, fixed-fee, or managed-services-subscription
+      basis.
+    entries:
+      - label: Engagement contract
+        name: engagement_contract
+        type: subscription
+        metric: contract
+        limit: -1
+        timeFrame: year
+        geo: global
+        unit: 1
+        price: contact McKinsey partnership engagement team
+        userMultiplied: false
+    elements:
+      - name: Strategy and Corporate Finance engagements
+      - name: Operations engagements
+      - name: McKinsey Digital and Technology engagements
+      - name: QuantumBlack AI and analytics engagements
+      - name: Sustainability and energy-transition engagements
+      - name: Risk, Resilience, and Cyber engagements
+      - name: Leap business-building engagements
+      - name: Implementation and managed-services engagements
+      - name: No public developer API
+
+  - id: mckinsey-insights
+    name: McKinsey Insights and Quarterly Research Access
+    type: free
+    description: >-
+      Free reader access to the firm's research surface: McKinsey
+      Insights articles, McKinsey Quarterly, McKinsey Global Institute
+      research, QuantumBlack AI Report and State of AI survey,
+      industry-specific reports, The McKinsey Podcast and other
+      specialty podcasts, and the McKinsey on Books program. Personal
+      subscription is available through the mckinsey.com account
+      surface.
+    entries:
+      - label: Public research access
+        name: insights_access
+        type: free
+        metric: report
+        limit: -1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: 0
+        userMultiplied: false
+    elements:
+      - name: McKinsey Insights articles
+      - name: McKinsey Quarterly
+      - name: McKinsey Global Institute (MGI) reports
+      - name: QuantumBlack AI Report and State of AI survey
+      - name: The McKinsey Podcast and specialty podcasts
+      - name: McKinsey on Books
+
+  - id: mckinsey-open-source
+    name: Open-Source Software Access
+    type: free
+    description: >-
+      Free use of the firm's open-source projects under permissive
+      open-source licenses (Apache 2.0 and similar). Includes Vizro,
+      Agents-at-Scale ARK, the ARK Marketplace, CausalNex, the
+      QuantumBlack Design System, and qbstyles on github.com/mckinsey;
+      and the LF-governed Kedro project on github.com/kedro-org. No
+      hosted or managed commercial offering is published at the
+      corporate level around these projects.
+    entries:
+      - label: Open-source access
+        name: open_source_access
+        type: free
+        metric: download
+        limit: -1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: 0
+        userMultiplied: false
+    elements:
+      - name: Vizro (Apache 2.0)
+      - name: Agents-at-Scale ARK
+      - name: Agents-at-Scale Marketplace
+      - name: CausalNex (Apache 2.0)
+      - name: QuantumBlack Design System
+      - name: qbstyles (Apache 2.0)
+      - name: Kedro (Apache 2.0, LF AI & Data)
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
