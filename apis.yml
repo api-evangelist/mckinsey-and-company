@@ -36,7 +36,7 @@ description: >-
   to the Linux Foundation (LF AI & Data) and is now governed at
   `github.com/kedro-org`.
 kind: company
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Consulting
   - Management Consulting
