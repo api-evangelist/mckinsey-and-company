@@ -97,7 +97,7 @@ common:
   - type: Hub
     name: McKinsey Sustainability
     url: https://www.mckinsey.com/capabilities/sustainability/how-we-help-clients
-  - type: Tool
+  - type: Tools
     name: Lilli (internal generative-AI assistant)
     url: https://www.mckinsey.com/about-us/new-at-mckinsey-blog/meet-lilli-our-generative-ai-tool
   - type: Podcast
