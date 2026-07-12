@@ -64,6 +64,10 @@ modified: '2026-05-23'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/mckinsey-and-company-domain-security.yml
+  - type: Blog
+    url: https://www.mckinsey.com/insights/rss
   - type: Website
     url: https://www.mckinsey.com/
   - type: About
