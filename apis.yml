@@ -1,40 +1,26 @@
 aid: mckinsey-and-company
 name: McKinsey & Company
-description: >-
-  McKinsey & Company is the senior partner of the MBB triumvirate of global
-  strategy and management consulting firms, founded in 1926 by James O.
-  McKinsey and headquartered in New York City. The firm operates from
-  130-plus cities across more than 65 countries with roughly 38,000-45,000
-  people serving corporations, governments, and not-for-profit
-  organizations. McKinsey delivers through industry practices and
-  cross-cutting capability practices: Strategy & Corporate Finance,
-  Operations, Marketing & Sales, Risk & Resilience, Sustainability,
-  Transformation, Implementation, Organization (formerly OrgSolutions),
-  Growth / Marketing / Sales, McKinsey Digital, and McKinsey Technology.
-  McKinsey Digital houses QuantumBlack (the AI division acquired in 2015),
-  Leap (venture / business building), and the Technology practice. Internal
-  generative-AI tooling is consolidated in Lilli, a McKinsey-built
-  consultant assistant launched in August 2023 that indexes 100,000+
-  internal documents and is used by tens of thousands of firm employees.
-  Research and thought leadership are published through McKinsey Insights,
-  McKinsey Quarterly (the firm's flagship business journal since 1964),
-  McKinsey Global Institute (MGI, the firm's business and economics
-  research arm), the QuantumBlack AI report and State of AI survey,
-  industry-specific reports, podcasts (The McKinsey Podcast, McKinsey Talks
-  Operations, etc.), and the McKinsey on Books series. McKinsey does not
-  publish a public commercial developer API or developer portal; all
-  software the firm releases publicly flows through GitHub. The official
-  `github.com/mckinsey` organization hosts a focused open-source portfolio
-  centered on data, AI, and agentic systems — Vizro (low-code Plotly/Dash
-  data-visualization toolkit), Agents-at-Scale ARK (Kubernetes-native
-  framework for portable agentic applications), Agents-at-Scale Marketplace
-  (curated Helm-chart catalog of ARK executors, MCP servers, and tools),
-  CausalNex (Bayesian-network causal-reasoning library), QuantumBlack
-  Design System (shadcn-based React component registry), and qbstyles
-  (QuantumBlack Matplotlib themes). Kedro, the production-grade data and
-  ML pipeline framework originally built inside QuantumBlack, was donated
-  to the Linux Foundation (LF AI & Data) and is now governed at
-  `github.com/kedro-org`.
+description: 'McKinsey & Company is the senior partner of the MBB triumvirate of global strategy and management
+  consulting firms, founded in 1926 by James O. McKinsey and headquartered in New York City. The firm operates from
+  130-plus cities across more than 65 countries with roughly 38,000-45,000 people serving corporations, governments,
+  and not-for-profit organizations. McKinsey delivers through industry practices and cross-cutting capability practices:
+  Strategy & Corporate Finance, Operations, Marketing & Sales, Risk & Resilience, Sustainability, Transformation,
+  Implementation, Organization (formerly OrgSolutions), Growth / Marketing / Sales, McKinsey Digital, and McKinsey
+  Technology. McKinsey Digital houses QuantumBlack (the AI division acquired in 2015), Leap (venture / business
+  building), and the Technology practice. Internal generative-AI tooling is consolidated in Lilli, a McKinsey-built
+  consultant assistant launched in August 2023 that indexes 100,000+ internal documents and is used by tens of thousands
+  of firm employees. Research and thought leadership are published through McKinsey Insights, McKinsey Quarterly
+  (the firm''s flagship business journal since 1964), McKinsey Global Institute (MGI, the firm''s business and economics
+  research arm), the QuantumBlack AI report and State of AI survey, industry-specific reports, podcasts (The McKinsey
+  Podcast, McKinsey Talks Operations, etc.), and the McKinsey on Books series. McKinsey does not publish a public
+  commercial developer API or developer portal; all software the firm releases publicly flows through GitHub. The
+  official `github.com/mckinsey` organization hosts a focused open-source portfolio centered on data, AI, and agentic
+  systems — Vizro (low-code Plotly/Dash data-visualization toolkit), Agents-at-Scale ARK (Kubernetes-native framework
+  for portable agentic applications), Agents-at-Scale Marketplace (curated Helm-chart catalog of ARK executors,
+  MCP servers, and tools), CausalNex (Bayesian-network causal-reasoning library), QuantumBlack Design System (shadcn-based
+  React component registry), and qbstyles (QuantumBlack Matplotlib themes). Kedro, the production-grade data and
+  ML pipeline framework originally built inside QuantumBlack, was donated to the Linux Foundation (LF AI & Data)
+  and is now governed at `github.com/kedro-org`.'
 kind: company
 deliveryModel:
   model: open-core
@@ -63,213 +49,228 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mckinsey-and-company.png
 tags:
-  - Consulting
-  - Management Consulting
-  - Strategy
-  - Professional Services
-  - MBB
-  - Big Three
-  - Artificial Intelligence
-  - Data Science
-  - Digital Transformation
-  - Research
-  - Insights
-  - Open-Source
-  - Agentic AI
-  - Kubernetes
-  - Data Visualization
-  - Causal Inference
-  - QuantumBlack
-  - Lilli
-  - Industry Analysis
+- Consulting
+- Management Consulting
+- Strategy
+- Professional Services
+- MBB
+- Big Three
+- Artificial Intelligence
+- Data Science
+- Digital Transformation
+- Research
+- Insights
+- Open-Source
+- Agentic AI
+- Kubernetes
+- Data Visualization
+- Causal Inference
+- QuantumBlack
+- Lilli
+- Industry Analysis
 tags_raw:
-  - Consulting
-  - Management Consulting
-  - Strategy
-  - Professional Services
-  - MBB
-  - Big Three
-  - AI
-  - Data Science
-  - Digital Transformation
-  - Operations
-  - Research
-  - Insights
-  - Open Source
-  - Agentic AI
-  - Kubernetes
-  - Data Visualization
-  - Causal Inference
-  - QuantumBlack
-  - Lilli
-  - Industry Analysis
+- Consulting
+- Management Consulting
+- Strategy
+- Professional Services
+- MBB
+- Big Three
+- AI
+- Data Science
+- Digital Transformation
+- Operations
+- Research
+- Insights
+- Open Source
+- Agentic AI
+- Kubernetes
+- Data Visualization
+- Causal Inference
+- QuantumBlack
+- Lilli
+- Industry Analysis
 url: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/apis.yml
 created: '2026-05-23'
 modified: '2026-05-23'
 specificationVersion: '0.23'
 apis: []
 common:
-  - type: IssueTracker
-    url: https://github.com/mckinsey/vizro/issues
-  - type: Releases
-    url: https://github.com/mckinsey/vizro/releases
-  - type: SecurityPolicy
-    url: https://github.com/mckinsey/vizro/blob/main/SECURITY.md
-  - type: CodeOfConduct
-    url: https://github.com/mckinsey/vizro/blob/main/CODE_OF_CONDUCT.md
-  - type: ContributionGuide
-    url: https://github.com/mckinsey/vizro/blob/main/CONTRIBUTING.md
-  - type: License
-    name: Apache-2.0
-    url: https://github.com/mckinsey/vizro/blob/main/LICENSE
-  - type: DomainSecurity
-    url: security/mckinsey-and-company-domain-security.yml
-  - type: Blog
-    url: https://www.mckinsey.com/insights/rss
-  - type: Website
-    url: https://www.mckinsey.com/
-  - type: About
-    url: https://www.mckinsey.com/about-us
-  - type: Capabilities
-    name: McKinsey Capabilities (cross-cutting practices)
-    url: https://www.mckinsey.com/capabilities
-  - type: Industries
-    url: https://www.mckinsey.com/industries
-  - type: KnowledgeCenter
-    name: McKinsey Insights
-    url: https://www.mckinsey.com/featured-insights
-  - type: KnowledgeCenter
-    name: McKinsey Quarterly
-    url: https://www.mckinsey.com/quarterly/overview
-  - type: KnowledgeCenter
-    name: McKinsey Global Institute (MGI)
-    url: https://www.mckinsey.com/mgi/overview
-  - type: Hub
-    name: McKinsey Digital
-    url: https://www.mckinsey.com/capabilities/mckinsey-digital/how-we-help-clients
-  - type: Hub
-    name: QuantumBlack, AI by McKinsey
-    url: https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients
-  - type: Hub
-    name: McKinsey Technology
-    url: https://www.mckinsey.com/capabilities/mckinsey-digital/how-we-help-clients/mckinsey-technology
-  - type: Hub
-    name: Leap by McKinsey (business building)
-    url: https://www.mckinsey.com/capabilities/leap/how-we-help-clients
-  - type: Hub
-    name: McKinsey Sustainability
-    url: https://www.mckinsey.com/capabilities/sustainability/how-we-help-clients
-  - type: Tools
-    name: Lilli (internal generative-AI assistant)
-    url: https://www.mckinsey.com/about-us/new-at-mckinsey-blog/meet-lilli-our-generative-ai-tool
-  - type: Podcast
-    name: The McKinsey Podcast
-    url: https://www.mckinsey.com/featured-insights/mckinsey-podcast
-  - type: GitHubOrganization
-    name: McKinsey (official)
-    url: https://github.com/mckinsey
-  - type: GitHubOrganization
-    name: Kedro (LF AI & Data, originated at QuantumBlack)
-    url: https://github.com/kedro-org
-  - type: GitHubRepository
-    name: Vizro (low-code data-visualization toolkit)
-    url: https://github.com/mckinsey/vizro
-  - type: GitHubRepository
-    name: Agents-at-Scale ARK (Kubernetes-native agentic framework)
-    url: https://github.com/mckinsey/agents-at-scale-ark
-  - type: GitHubRepository
-    name: Agents-at-Scale Marketplace
-    url: https://github.com/mckinsey/agents-at-scale-marketplace
-  - type: GitHubRepository
-    name: CausalNex (Bayesian-network causal reasoning)
-    url: https://github.com/mckinsey/causalnex
-  - type: GitHubRepository
-    name: QuantumBlack Design System
-    url: https://github.com/mckinsey/quantumblack-design-system
-  - type: GitHubRepository
-    name: qbstyles (QuantumBlack Matplotlib themes)
-    url: https://github.com/mckinsey/qbstyles
-  - type: GitHubRepository
-    name: Kedro (production-grade data and ML pipelines)
-    url: https://github.com/kedro-org/kedro
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/mckinsey
-  - type: X
-    url: https://x.com/McKinsey
-  - type: YouTube
-    name: McKinsey & Company
-    url: https://www.youtube.com/@McKinsey
-  - type: Careers
-    url: https://www.mckinsey.com/careers
-  - type: Alumni
-    url: https://www.mckinsey.com/alumni
-  - type: PrivacyPolicy
-    url: https://www.mckinsey.com/privacy-policy
-  - type: TermsOfService
-    url: https://www.mckinsey.com/terms-of-use
-  - type: Contact
-    url: https://www.mckinsey.com/contact-us
-  - type: Features
-    data:
-      - name: McKinsey Insights and McKinsey Quarterly
-        description: McKinsey Insights aggregates the firm's research and commentary; McKinsey Quarterly is its flagship business journal, published continuously since 1964.
-      - name: McKinsey Global Institute (MGI)
-        description: MGI is McKinsey's business and economics research arm, publishing macroeconomic, productivity, and technology research used as long-horizon source material across the firm.
-      - name: QuantumBlack, AI by McKinsey
-        description: The firm's advanced analytics and AI division, acquired in 2015, delivering machine learning, generative AI, and agentic systems engagements; produces the State of AI survey and the QuantumBlack AI report.
-      - name: McKinsey Digital
-        description: The firm's digital transformation practice encompassing strategy, design, technology, cloud, cyber, data, and product engineering, and the home of QuantumBlack, Leap, and Technology.
-      - name: Lilli generative-AI assistant
-        description: McKinsey's internal generative-AI consultant assistant launched August 2023, indexing 100,000-plus internal documents and used by tens of thousands of firm employees.
-      - name: Leap by McKinsey (business building)
-        description: McKinsey's venture-building and corporate-incubation practice that co-creates new digital businesses with clients.
-      - name: Open-source AI and data tooling
-        description: Public open-source releases on github.com/mckinsey (Vizro, Agents-at-Scale ARK, ARK Marketplace, CausalNex, QuantumBlack Design System, qbstyles) and the LF-governed Kedro project at github.com/kedro-org.
-      - name: Podcasts and books
-        description: The McKinsey Podcast, McKinsey Talks Operations, McKinsey on AI, McKinsey on Books, and other audio and book programs distributing firm thought leadership.
-  - type: UseCases
-    data:
-      - name: Corporate and Growth Strategy
-        description: C-suite advisory on corporate strategy, growth, M&A, portfolio, pricing, and capital allocation.
-      - name: Operations Transformation
-        description: Manufacturing, supply chain, procurement, and service-operations transformation engagements.
-      - name: Digital and AI Transformation
-        description: End-to-end digital and AI transformation delivered through McKinsey Digital and QuantumBlack, including model design, MLOps, agentic systems, and adoption programs.
-      - name: Generative AI Programs
-        description: Generative AI strategy, use-case identification, and at-scale deployment, including internal lessons from Lilli applied to client environments.
-      - name: Risk, Resilience, and Cyber
-        description: Enterprise risk, regulatory, resilience, and cybersecurity transformations.
-      - name: Sustainability and Energy Transition
-        description: Net-zero transition strategy, decarbonization roadmaps, and sustainability operating-model design through McKinsey Sustainability.
-      - name: Business Building
-        description: Greenfield digital-business creation, joint ventures, and incubation through Leap.
-      - name: Public-Sector and Social-Sector Engagements
-        description: National, state, and city government, plus social-sector and non-profit engagements; not exposed as a public API.
-  - type: Compliance
-    data:
-      - name: GDPR
-        description: European personal-data processing aligns with the EU General Data Protection Regulation.
-      - name: SOC 2
-        description: McKinsey-managed digital products and managed-services environments operate under SOC 2-type controls.
-      - name: ISO 27001
-        description: McKinsey's information-security management aligns with ISO 27001 controls.
-      - name: Client Confidentiality
-        description: All engagements operate under master consulting agreements with strict confidentiality and conflict-management terms; the firm's professional standards are central to its IP and engagement protocols.
+- type: IssueTracker
+  url: https://github.com/mckinsey/vizro/issues
+- type: Releases
+  url: https://github.com/mckinsey/vizro/releases
+- type: SecurityPolicy
+  url: https://github.com/mckinsey/vizro/blob/main/SECURITY.md
+- type: CodeOfConduct
+  url: https://github.com/mckinsey/vizro/blob/main/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/mckinsey/vizro/blob/main/CONTRIBUTING.md
+- type: License
+  name: Apache-2.0
+  url: https://github.com/mckinsey/vizro/blob/main/LICENSE
+- type: DomainSecurity
+  url: security/mckinsey-and-company-domain-security.yml
+- type: Blog
+  url: https://www.mckinsey.com/insights/rss
+- type: Website
+  url: https://www.mckinsey.com/
+- type: About
+  url: https://www.mckinsey.com/about-us
+- type: Capabilities
+  name: McKinsey Capabilities (cross-cutting practices)
+  url: https://www.mckinsey.com/capabilities
+- type: Industries
+  url: https://www.mckinsey.com/industries
+- type: KnowledgeCenter
+  name: McKinsey Insights
+  url: https://www.mckinsey.com/featured-insights
+- type: KnowledgeCenter
+  name: McKinsey Quarterly
+  url: https://www.mckinsey.com/quarterly/overview
+- type: KnowledgeCenter
+  name: McKinsey Global Institute (MGI)
+  url: https://www.mckinsey.com/mgi/overview
+- type: Hub
+  name: McKinsey Digital
+  url: https://www.mckinsey.com/capabilities/mckinsey-digital/how-we-help-clients
+- type: Hub
+  name: QuantumBlack, AI by McKinsey
+  url: https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients
+- type: Hub
+  name: McKinsey Technology
+  url: https://www.mckinsey.com/capabilities/mckinsey-digital/how-we-help-clients/mckinsey-technology
+- type: Hub
+  name: Leap by McKinsey (business building)
+  url: https://www.mckinsey.com/capabilities/leap/how-we-help-clients
+- type: Hub
+  name: McKinsey Sustainability
+  url: https://www.mckinsey.com/capabilities/sustainability/how-we-help-clients
+- type: Tools
+  name: Lilli (internal generative-AI assistant)
+  url: https://www.mckinsey.com/about-us/new-at-mckinsey-blog/meet-lilli-our-generative-ai-tool
+- type: Podcast
+  name: The McKinsey Podcast
+  url: https://www.mckinsey.com/featured-insights/mckinsey-podcast
+- type: GitHubOrganization
+  name: McKinsey (official)
+  url: https://github.com/mckinsey
+- type: GitHubOrganization
+  name: Kedro (LF AI & Data, originated at QuantumBlack)
+  url: https://github.com/kedro-org
+- type: GitHubRepository
+  name: Vizro (low-code data-visualization toolkit)
+  url: https://github.com/mckinsey/vizro
+- type: GitHubRepository
+  name: Agents-at-Scale ARK (Kubernetes-native agentic framework)
+  url: https://github.com/mckinsey/agents-at-scale-ark
+- type: GitHubRepository
+  name: Agents-at-Scale Marketplace
+  url: https://github.com/mckinsey/agents-at-scale-marketplace
+- type: GitHubRepository
+  name: CausalNex (Bayesian-network causal reasoning)
+  url: https://github.com/mckinsey/causalnex
+- type: GitHubRepository
+  name: QuantumBlack Design System
+  url: https://github.com/mckinsey/quantumblack-design-system
+- type: GitHubRepository
+  name: qbstyles (QuantumBlack Matplotlib themes)
+  url: https://github.com/mckinsey/qbstyles
+- type: GitHubRepository
+  name: Kedro (production-grade data and ML pipelines)
+  url: https://github.com/kedro-org/kedro
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mckinsey
+- type: X
+  url: https://x.com/McKinsey
+- type: YouTube
+  name: McKinsey & Company
+  url: https://www.youtube.com/@McKinsey
+- type: Careers
+  url: https://www.mckinsey.com/careers
+- type: Alumni
+  url: https://www.mckinsey.com/alumni
+- type: PrivacyPolicy
+  url: https://www.mckinsey.com/privacy-policy
+- type: TermsOfService
+  url: https://www.mckinsey.com/terms-of-use
+- type: Contact
+  url: https://www.mckinsey.com/contact-us
+- type: Features
+  data:
+  - name: McKinsey Insights and McKinsey Quarterly
+    description: McKinsey Insights aggregates the firm's research and commentary; McKinsey Quarterly is its flagship
+      business journal, published continuously since 1964.
+  - name: McKinsey Global Institute (MGI)
+    description: MGI is McKinsey's business and economics research arm, publishing macroeconomic, productivity,
+      and technology research used as long-horizon source material across the firm.
+  - name: QuantumBlack, AI by McKinsey
+    description: The firm's advanced analytics and AI division, acquired in 2015, delivering machine learning, generative
+      AI, and agentic systems engagements; produces the State of AI survey and the QuantumBlack AI report.
+  - name: McKinsey Digital
+    description: The firm's digital transformation practice encompassing strategy, design, technology, cloud, cyber,
+      data, and product engineering, and the home of QuantumBlack, Leap, and Technology.
+  - name: Lilli generative-AI assistant
+    description: McKinsey's internal generative-AI consultant assistant launched August 2023, indexing 100,000-plus
+      internal documents and used by tens of thousands of firm employees.
+  - name: Leap by McKinsey (business building)
+    description: McKinsey's venture-building and corporate-incubation practice that co-creates new digital businesses
+      with clients.
+  - name: Open-source AI and data tooling
+    description: Public open-source releases on github.com/mckinsey (Vizro, Agents-at-Scale ARK, ARK Marketplace,
+      CausalNex, QuantumBlack Design System, qbstyles) and the LF-governed Kedro project at github.com/kedro-org.
+  - name: Podcasts and books
+    description: The McKinsey Podcast, McKinsey Talks Operations, McKinsey on AI, McKinsey on Books, and other audio
+      and book programs distributing firm thought leadership.
+- type: UseCases
+  data:
+  - name: Corporate and Growth Strategy
+    description: C-suite advisory on corporate strategy, growth, M&A, portfolio, pricing, and capital allocation.
+  - name: Operations Transformation
+    description: Manufacturing, supply chain, procurement, and service-operations transformation engagements.
+  - name: Digital and AI Transformation
+    description: End-to-end digital and AI transformation delivered through McKinsey Digital and QuantumBlack, including
+      model design, MLOps, agentic systems, and adoption programs.
+  - name: Generative AI Programs
+    description: Generative AI strategy, use-case identification, and at-scale deployment, including internal lessons
+      from Lilli applied to client environments.
+  - name: Risk, Resilience, and Cyber
+    description: Enterprise risk, regulatory, resilience, and cybersecurity transformations.
+  - name: Sustainability and Energy Transition
+    description: Net-zero transition strategy, decarbonization roadmaps, and sustainability operating-model design
+      through McKinsey Sustainability.
+  - name: Business Building
+    description: Greenfield digital-business creation, joint ventures, and incubation through Leap.
+  - name: Public-Sector and Social-Sector Engagements
+    description: National, state, and city government, plus social-sector and non-profit engagements; not exposed
+      as a public API.
+- type: Compliance
+  data:
+  - name: GDPR
+    description: European personal-data processing aligns with the EU General Data Protection Regulation.
+  - name: SOC 2
+    description: McKinsey-managed digital products and managed-services environments operate under SOC 2-type controls.
+  - name: ISO 27001
+    description: McKinsey's information-security management aligns with ISO 27001 controls.
+  - name: Client Confidentiality
+    description: All engagements operate under master consulting agreements with strict confidentiality and conflict-management
+      terms; the firm's professional standards are central to its IP and engagement protocols.
+- type: GitHubOrganization
+  url: https://github.com/quantumblacklabs
 properties:
-  - type: JSONLD
-    url: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/json-ld/mckinsey-and-company-context.jsonld
-  - type: Vocabulary
-    url: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/vocabulary/mckinsey-and-company-vocabulary.yml
-  - type: Plans
-    url: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/plans/mckinsey-and-company-plans-pricing.yml
-  - type: RateLimits
-    url: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/rate-limits/mckinsey-and-company-rate-limits.yml
-  - type: FinOps
-    url: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/finops/mckinsey-and-company-finops.yml
+- type: JSONLD
+  url: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/json-ld/mckinsey-and-company-context.jsonld
+- type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/vocabulary/mckinsey-and-company-vocabulary.yml
+- type: Plans
+  url: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/plans/mckinsey-and-company-plans-pricing.yml
+- type: RateLimits
+  url: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/rate-limits/mckinsey-and-company-rate-limits.yml
+- type: FinOps
+  url: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/finops/mckinsey-and-company-finops.yml
 plansReconciled: false
 rateLimitsReconciled: false
 finopsReconciled: false
 position: Consuming
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
