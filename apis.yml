@@ -60,8 +60,8 @@ tags:
 - Digital Transformation
 - Research
 - Insights
-- Open-Source
-- Agentic AI
+- Open Source
+- AI Agents
 - Kubernetes
 - Data Visualization
 - Causal Inference
@@ -89,6 +89,7 @@ tags_raw:
 - QuantumBlack
 - Lilli
 - Industry Analysis
+- Open-Source
 url: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/apis.yml
 created: '2026-05-23'
 modified: '2026-05-23'
