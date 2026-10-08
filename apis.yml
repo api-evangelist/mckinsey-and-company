@@ -96,6 +96,12 @@ modified: '2026-05-23'
 specificationVersion: '0.23'
 apis: []
 common:
+- type: Plans
+  url: plans/mckinsey-and-company-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/mckinsey-and-company-rate-limits.yml
+- type: FinOps
+  url: finops/mckinsey-and-company-finops.yml
 - type: IssueTracker
   url: https://github.com/mckinsey/vizro/issues
 - type: Releases
