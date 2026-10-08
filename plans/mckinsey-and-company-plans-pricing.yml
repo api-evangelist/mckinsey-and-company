@@ -137,3 +137,37 @@ plans:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units:
+  - negotiated
+  - object
+  plans:
+  - name: Partnership Consulting Engagement
+    access: enterprise
+    model: subscription
+    model_how: derived
+    units:
+    - negotiated
+    periods:
+    - year
+  - name: McKinsey Insights and Quarterly Research Access
+    access: free
+    model: free
+    model_how: derived
+    units:
+    - object
+    periods:
+    - month
+  - name: Open-Source Software Access
+    access: free
+    model: free
+    model_how: derived
+    units:
+    - object
+    periods:
+    - month
