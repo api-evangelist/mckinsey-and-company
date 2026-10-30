@@ -1,4 +1,4 @@
-# McKinsey & Company (mckinsey-and-company)
+# McKinsey & Company
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,116 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-McKinsey & Company is the senior partner of the MBB strategy and management consulting triumvirate, founded in 1926 by James O. McKinsey and headquartered in New York City. The firm operates from 130-plus cities across more than 65 countries with roughly 38,000-45,000 people serving corporations, governments, and not-for-profit organizations. McKinsey is structured as a single global partnership rather than a network of independent member firms; Bob Sternfels has served as Global Managing Partner since 2021. McKinsey does not publish a commercial public developer API or developer portal; the surface profiled here covers the institutional, research-publishing, internal-tooling, and open-source footprints.
+McKinsey & Company is the senior partner of the MBB triumvirate of global strategy and management consulting firms, founded in 1926 by James O. McKinsey and headquartered in New York City. The firm operates from 130-plus cities across more than 65 countries with roughly 38,000-45,000 people serving corporations, governments, and not-for-profit organizations. McKinsey delivers through industry practices and cross-cutting capability practices: Strategy & Corporate Finance, Operations, Marketing & Sales, Risk & Resilience, Sustainability, Transformation, Implementation, Organization (formerly OrgSolutions), Growth / Marketing / Sales, McKinsey Digital, and McKinsey Technology. McKinsey Digital houses QuantumBlack (the AI division acquired in 2015), Leap (venture / business building), and the Technology practice. Internal generative-AI tooling is consolidated in Lilli, a McKinsey-built consultant assistant launched in August 2023 that indexes 100,000+ internal documents and is used by tens of thousands of firm employees. Research and thought leadership are published through McKinsey Insights, McKinsey Quarterly (the firm's flagship business journal since 1964), McKinsey Global Institute (MGI, the firm's business and economics research arm), the QuantumBlack AI report and State of AI survey, industry-specific reports, podcasts (The McKinsey Podcast, McKinsey Talks Operations, etc.), and the McKinsey on Books series. McKinsey does not publish a public commercial developer API or developer portal; all software the firm releases publicly flows through GitHub. The official `github.com/mckinsey` organization hosts a focused open-source portfolio centered on data, AI, and agentic systems — Vizro (low-code Plotly/Dash data-visualization toolkit), Agents-at-Scale ARK (Kubernetes-native framework for portable agentic applications), Agents-at-Scale Marketplace (curated Helm-chart catalog of ARK executors, MCP servers, and tools), CausalNex (Bayesian-network causal-reasoning library), QuantumBlack Design System (shadcn-based React component registry), and qbstyles (QuantumBlack Matplotlib themes). Kedro, the production-grade data and ML pipeline framework originally built inside QuantumBlack, was donated to the Linux Foundation (LF AI & Data) and is now governed at `github.com/kedro-org`.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/apis.yml)
+**Areas:** Consulting · Management Consulting · Strategy · Professional Services · MBB · Big Three · Artificial Intelligence · Data Science · Digital Transformation · Research · Insights · Open Source
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=mckinsey-and-company-api-evangelist&utm_content=repo)
+## McKinsey & Company on APIs.io
 
-## Tags
+Everything profiled for McKinsey & Company is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mckinsey-and-company/](https://apis.io/providers/mckinsey-and-company/)** — or go straight to one of the APIs or properties below.
 
-Consulting, Management Consulting, Strategy, Professional Services, MBB, Big Three, AI, Data Science, Digital Transformation, Operations, Research, Insights, Open Source, Agentic AI, Kubernetes, Data Visualization, Causal Inference, QuantumBlack, Lilli, Industry Analysis
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+#### JSON-LD (1)
 
-## APIs
+Linked-data contexts for the provider's vocabulary.
 
-No commercial public developer APIs are published at the corporate level. Any APIs McKinsey builds are client-specific (delivered through engagements or McKinsey Digital / QuantumBlack accelerators) and live with the client or partner, not on a McKinsey-branded developer surface. The firm's public software footprint flows through GitHub.
+- [Mckinsey And Company Context](https://apis.io/jsonld/mckinsey-and-company/mckinsey-and-company-context/)
 
-## Capability Practices
+#### Vocabulary (1)
 
-| Capability Practice | Notes |
-|---|---|
-| Strategy & Corporate Finance | Corporate strategy, growth, M&A, portfolio, pricing, capital allocation |
-| Operations | Manufacturing, supply chain, procurement, service operations |
-| Marketing & Sales | Growth, marketing, commercial transformation |
-| Risk & Resilience | Enterprise risk, regulatory, resilience, cyber |
-| Sustainability | Net-zero strategy, decarbonization, energy transition, climate risk |
-| Transformation | Enterprise-wide transformation programs |
-| Implementation | Operating-model and execution support |
-| Organization | Org design, talent, culture, leadership |
-| McKinsey Digital | Digital, design, technology, cloud, data, product engineering — houses QuantumBlack, Leap, and the Technology practice |
-| McKinsey Technology | Cloud, architecture, platform engineering, cyber, enterprise technology |
+The provider's domain terms, defined.
 
-## Subsidiary Brands
+- [McKinsey & Company Vocabulary](https://apis.io/vocabularies/mckinsey-and-company/mckinsey-and-company-vocabulary/)
 
-| Brand | Description |
-|---|---|
-| QuantumBlack, AI by McKinsey | Advanced analytics and AI division, founded in 2009 in London and acquired by McKinsey in 2015. Originating org for Kedro, CausalNex, qbstyles, and the QuantumBlack Design System. |
-| Leap by McKinsey | Venture-building and corporate-incubation practice that co-creates new digital businesses with clients. |
-| McKinsey Technology | The technology practice inside McKinsey Digital, focused on cloud, architecture, platform engineering, and cyber. |
-| McKinsey Sustainability | The cross-cutting sustainability practice covering net-zero, decarbonization, and energy transition. |
+#### Security (1)
 
-## Internal Tooling
+Authentication, trust centre, and vulnerability disclosure.
 
-| Tool | Description |
-|---|---|
-| Lilli | McKinsey's internal generative-AI consultant assistant launched in August 2023. Indexes 100,000-plus internal documents (frameworks, case studies, methodologies) and is used by tens of thousands of firm employees to draft outputs, summarize research, and find expertise inside the firm. |
+- [Mckinsey And Company Domain Security](https://apis.io/security/mckinsey-and-company/mckinsey-and-company-domain-security/)
 
-## Research Surface
+#### Plans and pricing (1)
 
-| Program | Description |
-|---|---|
-| McKinsey Insights | Umbrella research-and-thought-leadership publishing surface aggregating articles, reports, podcasts, and videos from across the practices. |
-| McKinsey Quarterly | Flagship business journal continuously published since 1964, aimed at senior executives. |
-| McKinsey Global Institute (MGI) | The firm's business and economics research arm, producing long-horizon work on the global economy, productivity, technology, labor, and capital. |
-| QuantumBlack AI Report and State of AI | QuantumBlack's annual flagship AI report and recurring global enterprise-AI adoption survey. |
-| The McKinsey Podcast | Flagship audio program; sits alongside specialty shows including McKinsey Talks Operations and McKinsey on AI. |
-| McKinsey on Books | Books program including titles authored by McKinsey partners and consultants. |
+Published plans, tiers and prices.
 
-## Open-Source Portfolio
+- [Mckinsey And Company Plans Pricing](https://apis.io/plans/mckinsey-and-company/mckinsey-and-company-plans-pricing/)
 
-McKinsey's public software footprint is concentrated in data, AI, and agentic-systems projects hosted on `github.com/mckinsey`, plus the Linux Foundation-governed Kedro project at `github.com/kedro-org`.
+#### Rate limits (1)
 
-| Project | Description | Repo |
-|---|---|---|
-| Vizro | Open-source Python-based low-code toolkit for building "beautiful and powerful data visualization apps" without needing advanced engineering or visual design expertise. Apache 2.0. ~3.7k stars. | [mckinsey/vizro](https://github.com/mckinsey/vizro) |
-| Agents-at-Scale ARK | "A declarative, Kubernetes-native framework for building portable, scalable, and provider-agnostic agentic applications." Provider-agnostic across OpenAI, Anthropic, Google, Azure, and Ollama; multi-agent teams, tool integration via HTTP and MCP, persistent memory, Python and TypeScript SDKs. | [mckinsey/agents-at-scale-ark](https://github.com/mckinsey/agents-at-scale-ark) |
-| Agents-at-Scale Marketplace | Curated catalog of Helm charts and DevSpace configs for ARK — executors (Claude SDK, LangChain), observability, sandbox environments, file storage, pre-built agents, and MCP servers. | [mckinsey/agents-at-scale-marketplace](https://github.com/mckinsey/agents-at-scale-marketplace) |
-| CausalNex | "A toolkit for causal reasoning with Bayesian Networks." Python, Apache 2.0. Originated inside QuantumBlack. | [mckinsey/causalnex](https://github.com/mckinsey/causalnex) |
-| QuantumBlack Design System | shadcn-based React component library with 30+ components styled to the QuantumBlack Design System specification. Built on Vite, React 19, Tailwind CSS v4, Radix UI primitives. | [mckinsey/quantumblack-design-system](https://github.com/mckinsey/quantumblack-design-system) |
-| qbstyles | "A python package with a light and a dark matplotlib style" from QuantumBlack labs. Apache 2.0. | [mckinsey/qbstyles](https://github.com/mckinsey/qbstyles) |
-| Kedro | "A toolbox for production-ready data engineering and data science pipelines." Originated inside QuantumBlack and donated to the Linux Foundation; now LF AI & Data-governed. Apache 2.0. ~10.9k stars. Adopters include NASA, Telkomsel, Beamery, NHS AI Lab, Sber, and QuantumBlack. | [kedro-org/kedro](https://github.com/kedro-org/kedro) |
+Published request limits.
 
-## Common Properties
+- [Mckinsey And Company Rate Limits](https://apis.io/rate-limits/mckinsey-and-company/mckinsey-and-company-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Mckinsey And Company Finops](https://apis.io/finops/mckinsey-and-company/mckinsey-and-company-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.mckinsey.com/)
-- [About](https://www.mckinsey.com/about-us)
-- [Capabilities](https://www.mckinsey.com/capabilities)
-- [Industries](https://www.mckinsey.com/industries)
-- [McKinsey Insights](https://www.mckinsey.com/featured-insights)
-- [McKinsey Quarterly](https://www.mckinsey.com/quarterly/overview)
-- [McKinsey Global Institute](https://www.mckinsey.com/mgi/overview)
-- [McKinsey Digital](https://www.mckinsey.com/capabilities/mckinsey-digital/how-we-help-clients)
-- [QuantumBlack, AI by McKinsey](https://www.mckinsey.com/capabilities/quantumblack/how-we-help-clients)
-- [Leap by McKinsey](https://www.mckinsey.com/capabilities/leap/how-we-help-clients)
-- [McKinsey Sustainability](https://www.mckinsey.com/capabilities/sustainability/how-we-help-clients)
-- [Lilli (internal AI assistant) announcement](https://www.mckinsey.com/about-us/new-at-mckinsey-blog/meet-lilli-our-generative-ai-tool)
-- [The McKinsey Podcast](https://www.mckinsey.com/featured-insights/mckinsey-podcast)
-- [GitHub Organization (McKinsey official)](https://github.com/mckinsey)
-- [GitHub Organization (Kedro / LF AI & Data)](https://github.com/kedro-org)
-- [LinkedIn](https://www.linkedin.com/company/mckinsey)
-- [X / Twitter](https://x.com/McKinsey)
-- [YouTube](https://www.youtube.com/@McKinsey)
-- [Careers](https://www.mckinsey.com/careers)
-- [Alumni](https://www.mckinsey.com/alumni)
-- [Privacy Policy](https://www.mckinsey.com/privacy-policy)
-- [Terms of Use](https://www.mckinsey.com/terms-of-use)
-- [Contact](https://www.mckinsey.com/contact-us)
+- [Blog](https://www.mckinsey.com/insights/rss)
+- [Terms of service](https://www.mckinsey.com/terms-of-use)
+- [Privacy policy](https://www.mckinsey.com/privacy-policy)
+- [GitHub](https://github.com/mckinsey)
 
-## Generated Artifacts
+## API Evangelist rating
 
-- [JSON-LD context](json-ld/mckinsey-and-company-context.jsonld)
-- [Vocabulary](vocabulary/mckinsey-and-company-vocabulary.yml)
-- [Plans (placeholder)](plans/mckinsey-and-company-plans-pricing.yml)
-- [Rate limits (placeholder)](rate-limits/mckinsey-and-company-rate-limits.yml)
-- [FinOps (placeholder)](finops/mckinsey-and-company-finops.yml)
+**Kin Score 26.4** — thin · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 26.3 |
 
-**FN:** Kin Lane
+**Agent readiness 0.6** — human-only
 
-**Email:** kin@apievangelist.com
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mckinsey-and-company/](https://apis.io/providers/mckinsey-and-company/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for McKinsey & Company: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mckinsey-and-company/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
